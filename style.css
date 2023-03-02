@@ -41,6 +41,10 @@
     
 }
 
+.contenedor p{
+    color: #666666;
+}
+
 .ul a{
     color: black;
     text-decoration: none;
@@ -76,7 +80,7 @@ header li{
 
 .contenedor section{
     text-align: center;
-    padding: 200px 20px 30px 20px;
+    padding: 50px 20px 30px 20px;
 }
 
 .contenedor h1{
@@ -128,17 +132,18 @@ font-size: large;
 
     .footer{
         height: 70px;
-        background-color: #F3F3F3;
+        
+        background-image: url(./images/pattern-bg.jpg);
         padding-top: 20px;
         padding-bottom: 30px;
         
     }
 
     .nosotros{
-        background-color: black;
+        background-image: url(./images/pattern-bg.jpg);
+        
         color: white;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 60px 20px 60px 20px;
     }
     .nosotros-con{
         
@@ -171,4 +176,12 @@ font-size: large;
     .negocio h3{
         padding: 0px 0 20px 0;
 
+    }
+
+
+    .banner{
+        background-image: url(./images/slider-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
     }

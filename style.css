@@ -98,7 +98,15 @@ header li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
+.card a{
+    text-decoration: none;
+    color: black;
+
+}
+
 
 .card img{
     width: 100px;

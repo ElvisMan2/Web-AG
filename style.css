@@ -7,7 +7,6 @@
     
     margin: 0;
     padding: 0;
-    
     font-family:'BebasNeue' ;
     box-sizing: border-box;
 
@@ -33,16 +32,13 @@
     display: flex;
     justify-content: space-between;
     
-    max-width: 1100px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
     
 }
-
-.card{ cursor:default; transition: all 400ms ease;}
-.card:hover{box-shadow: 5px 5px 20px rgba(0,0,0,0.4); transform: translateY(-3%);}
 
 .contenedor p{
     color: #666666;
@@ -105,16 +101,8 @@ header li{
 }
 .card{
     width: 250px;
-<<<<<<< HEAD
     height: 250px;
     
-<<<<<<< Updated upstream
-=======
-=======
-    height: 200px;
-    background-color: #F3F3F3;
->>>>>>> 1d8ac18ee9f5b1319a7db7fd4086a89cd1f2a036
->>>>>>> Stashed changes
     margin: 30px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -160,7 +148,7 @@ font-size: large;
     }
     .nosotros-con{
         
-        max-width: 1100px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
 
@@ -173,7 +161,7 @@ font-size: large;
 
     .negocio{
         display: flex;
-        padding: 20px 30px 20px 30px;
+        padding: 60px 30px 60px 30px;
 
     }
     .negocio img{
@@ -183,7 +171,7 @@ font-size: large;
     }
 
     .negocio h2{
-        padding: 40px 0 20px 0;
+        padding: 60px 0 20px 0;
 
     }
     .negocio h3{

@@ -17,10 +17,16 @@ nav{
     text-align: center;
 
 }
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .navbar{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1rem;
+    background-color: #F7F7F7;
 }
 
 nav img{

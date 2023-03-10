@@ -65,3 +65,10 @@ nav img{
     text-decoration: none;
     color: #14352F;
 }
+
+.nosotros{
+    background-image: url(./images/pattern-bg.png);
+    background-size: cover;
+    color: white;
+    padding: 60px 20px 60px 20px;
+}

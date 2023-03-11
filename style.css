@@ -1,12 +1,24 @@
 @font-face {
     font-family:'BebasNeue' ;
     src: url(./fonts/BebasNeue-Regular.ttf);
-}
-
-*{
-    font-family:'BebasNeue' ;
  
 }
+
+
+
+p, .footer a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-family:'BebasNeue';
+
+}
+h1,h2,h3,h4,h5 {
+    font-family:'BebasNeue';
+
+}
+
 
 nav{
     font-size:x-large;

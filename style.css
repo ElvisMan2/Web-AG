@@ -44,10 +44,10 @@ nav{
 nav img{
     max-width: 50px;
 }
-
-.carousel-item figure{
-    max-height: 450px;
+.carousel-inner{
+    max-height: 250px;
 }
+
 
 #carouselExampleCaptions{
     max-width: 1440px;

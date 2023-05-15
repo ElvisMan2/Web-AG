@@ -4,6 +4,17 @@
  
 }
 
+@media (min-width: 769px) {
+    .carousel-caption{
+        font-size: xx-large;
+    }
+
+    .nav-item{
+        margin-left: 60px;
+    }
+}
+
+
 
 
 p, .footer a{
@@ -32,7 +43,7 @@ nav{
 
 .navbar-collapse{
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 
@@ -42,12 +53,17 @@ nav{
 }
 
 nav img{
-    max-width: 50px;
+    max-width: 100px;
+}
+.carousel-inner{
+    max-height: 250px;
 }
 
-.carousel-item figure{
-    max-height: 450px;
+.carousel-inner figure{
+    max-height: 250px;
 }
+
+
 
 #carouselExampleCaptions{
     max-width: 1440px;
@@ -88,6 +104,7 @@ nav img{
     color: white;
     padding: 60px 20px 60px 20px;
     margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 figure img{

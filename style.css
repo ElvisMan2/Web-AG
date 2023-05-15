@@ -7,7 +7,7 @@
 @media (min-width: 769px) {
     .carousel-caption{
         font-size: xx-large;
-        text-transform: uppercase;
+        
     }
 
     .nav-item{
@@ -15,7 +15,10 @@
     }
 }
 
-
+.carousel-caption p{
+    font-family:'BebasNeue' !important;
+    text-transform: uppercase;
+}
 
 
 p, .footer a{

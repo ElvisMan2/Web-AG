@@ -117,3 +117,41 @@ figure img{
     background-color: #0A1312;
     padding: 30px 0 15px 0;
 }
+
+
+
+.cards-lawyer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px auto 25px auto;
+    max-width: 1036px;
+    flex-wrap: wrap;
+}
+.card-lawyer{
+    max-width: 285px;
+    padding: 20px;
+    border:2px solid #AFAFAF;
+    margin-top: 15px;
+}
+.card-lawyer img{
+    margin: 5px;
+}
+.card-lawyer h3{
+    margin: 5px;
+}
+
+.redes-lawyer{
+    margin-bottom: 20px;
+}
+
+/* Aplicar ancho y alto a los íconos dentro de .redes-lawyer */
+.bi-linkedin {
+    font-size: 25px;
+    
+  }
+
+  .bi-envelope-fill{
+    font-size: 25px;
+    
+  }
+  

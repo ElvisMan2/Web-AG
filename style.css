@@ -124,20 +124,27 @@ figure img{
     display: flex;
     justify-content: space-evenly;
     margin: 25px auto 25px auto;
-    max-width: 1036px;
+    max-width: 1200px;
     flex-wrap: wrap;
 }
 .card-lawyer{
-    max-width: 300px;
-    padding: 20px;
-    border:2px solid #AFAFAF;
+    max-width: 330px;
+    padding: 15px;
+    border:1px solid #AFAFAF;
     margin-top: 15px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);cursor:default; transition: all 400ms ease;
 }
+
+.card-lawyer:hover{box-shadow: 5px 5px 20px rgba(0,0,0,0.4); transform: translateY(-3%);}
 .card-lawyer img{
-    margin: 5px;
+    margin: 10px 0 20px 0;
 }
 .card-lawyer h3{
     margin: 5px;
+}
+.card-lawyer p{
+    font-size: small;
+    text-align: justify;
 }
 
 .redes-lawyer{

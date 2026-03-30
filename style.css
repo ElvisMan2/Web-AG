@@ -15,6 +15,10 @@
     }
 }
 
+
+.nav-link:hover{
+    color: #FFA552 !important;
+}
 .carousel-caption p{
     font-family:'BebasNeue' !important;
     text-transform: uppercase;

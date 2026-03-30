@@ -95,14 +95,14 @@ nav img{
 
 .card i{
     font-size: 80px;
-    color: #19756A;
+    color: #ffa552;
     padding-bottom: 20px;
     
 }
 
 .card a{
     text-decoration: none;
-    color: #14352F;
+    color: #ffa552 !important;
 }
 
 .nosotros{

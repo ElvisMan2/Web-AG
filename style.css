@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5 {
 
 }
 
+.container h1{
+    color: #442922;
+}
+
 body{
     background-color: #fef5f0 !important;
 }
@@ -92,7 +96,8 @@ nav img{
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);cursor:default; transition: all 400ms ease;
-   
+   border:1px solid #442922 !important;
+   background-color: #fef5f0 !important;
 }
 
 .card:hover{box-shadow: 5px 5px 20px rgba(0,0,0,0.4); transform: translateY(-3%);}
@@ -106,11 +111,15 @@ nav img{
 
 .card a{
     text-decoration: none;
-    color: #ffa552 !important;
+}
+
+.card h5{
+    margin: 10px 0;
+    color: #442922;
 }
 
 .nosotros{
-    background-image: url(./images/pattern-bg.png);
+    background-color: #442922;
     background-size: cover;
     color: white;
     padding: 60px 20px 60px 20px;
@@ -122,7 +131,7 @@ figure img{
     width: 100%;
 }
 .footer{
-    background-color: #0A1312;
+    background-color: #442922;
     padding: 30px 0 15px 0;
 }
 
@@ -138,7 +147,7 @@ figure img{
 .card-lawyer{
     max-width: 330px;
     padding: 15px;
-    border:1px solid #AFAFAF;
+    
     margin-top: 15px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);cursor:default; transition: all 400ms ease;
 }

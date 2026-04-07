@@ -116,6 +116,10 @@ nav img{
     font-size: medium;
 }
 
+.card-lawyer h3{
+    font-size: large;
+}
+
 .nosotros{
     background-color: #442922;
     background-size: cover;

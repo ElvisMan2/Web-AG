@@ -1,12 +1,13 @@
-@font-face {
-    font-family:'BebasNeue' ;
-    src: url(./fonts/BebasNeue-Regular.ttf);
- 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat' !important;
+    font-weight: 500 !important;
 }
 
 @media (min-width: 769px) {
     .carousel-caption{
-        font-size: xx-large;
+        font-size: large;
         
     }
 
@@ -20,24 +21,15 @@
     color: #FFA552 !important;
 }
 .carousel-caption p{
-    font-family:'BebasNeue' !important;
     text-transform: uppercase;
 }
 
 
-p, .footer a{
-    font-family: 'Roboto', sans-serif;
-}
 
 .navbar {
-    font-family:'BebasNeue';
     background-color: #fef5f0 !important;
-
 }
-h1,h2,h3,h4,h5 {
-    font-family:'BebasNeue';
 
-}
 
 .container h1{
     color: #442922;
@@ -48,11 +40,11 @@ body{
 }
 
 nav{
-    font-size:x-large;
+    font-size:large;
 }
 
 .dropdown-item{
-    font-size:larger;
+    font-size:medium;
     text-align: center;
 
 }
@@ -109,6 +101,11 @@ nav img{
     
 }
 
+
+
+.container h1{
+    font-size: x-large;
+}
 .card a{
     text-decoration: none;
 }
@@ -116,6 +113,7 @@ nav img{
 .card h5{
     margin: 10px 0;
     color: #442922;
+    font-size: medium;
 }
 
 .nosotros{
